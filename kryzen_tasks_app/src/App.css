@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.board{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.todo, .inprogress, .done ,.rework{
+  width: 25%;
+  height: 500px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.todo-col,.inprogress-col,.done-col{
+  padding: 10px 0;
+  background-color: rgb(42, 43, 43);
+  color: white;
+}
+
+
+
+/* tasks item */
+.tasks-item{
+  width: 90%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.7px solid rgb(199, 198, 198);
+  border-radius: 10px;
+  cursor: grab;
+  margin-left: 15px;
+}
+
+.todo{
+  overflow: scroll;
+}
+.todo::-webkit-scrollbar {
+  display: none; 
+}
+
+.tasks-item:hover{
+  background-color: lightgray;
+}
+
+.task-name{
+  margin-left: 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+/* .scroll-item{
+  overflow: scroll;
+}
+.scroll-item::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+/* } */
+
+.btn{
+  text-decoration: none;
+  margin-right: 10px;
+  background-color: rgb(211, 7, 7);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover{
+  cursor: pointer;
+  /* background-color:rgb(173, 4, 4) ; */
+  padding: 9px;
+  margin-right: 11px;
+}
+
+.header{
+  width: 100%;
+  text-decoration: solid;
+  font-size: 50px;
+  font-family: 'cursive';
+  background-color: rgb(51, 153, 105);
+  color: white;
+}
+
+.input{
+  padding: 15px;
+  margin: 20px 5px 20px 20px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+
+
+
+/* CSS */
+.add-btn {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add-btn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
