@@ -9,7 +9,7 @@ Fullstack
 ## Deplolyed App
 Frontend: https://6613c961b1605487a1604154--precious-mochi-cdd060.netlify.app/
 Backend: https://kryzen-backend-1.onrender.com/
-Backend codebase: 
+Backend codebase: https://github.com/Venky8073/kryzen-backend
 
 
 ## Video Walkthrough of the project
