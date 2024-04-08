@@ -12,7 +12,7 @@ Backend: https://kryzen-backend-1.onrender.com/
 
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+https://drive.google.com/file/d/1CtmBWlv2adYlEHt1-_ATRIvvs4mYzjdZ/view?usp=sharing
 
 
 ## Features
@@ -33,13 +33,14 @@ npm start
 ```
 
 ## Usage
-Provide instructions and examples on how to use your project.
+
+![b1604382-bcf3-48d7-beee-3f39019ae734](https://github.com/Venky8073/kryzen_task_app/assets/118984511/c3b4d753-aa0e-4c20-b71a-cc51be436a50)
 
 ```bash
-# Example
+# In the image above, you'll notice the presence of an "Add" button and an input box. By typing in the task and clicking the "Add Task" button, you can seamlessly incorporate new tasks into the system.
+#  By simply dragging the elements, you can transition your task smoothly between the "To Do," "In Progress," "Done," and "Rework" sections.
+# Within each task, you'll find a delete button. With just a simple click, you can swiftly remove the task from the list.
 ```
-
-Include screenshots as necessary.
 
 
 ## API Endpoints
